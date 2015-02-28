@@ -1,10 +1,19 @@
+body		{
+			background-image: url("http://www.public-domain-photos.com/free-stock-photos-1/landscapes/mountains/mountain-49.jpg");
+			}
+
 div 		{
 			margin-left: auto;
 			margin-right: auto;
 			}
 
+a:visited	{
+			color: white;
+			}
+
 #wrapper	{
-			width: 70%;
+			margin-top: 5%;
+			width: 60%;
 			background-color: #333300;
 			border-radius: 10px;
 			padding: 10px;
@@ -12,11 +21,12 @@ div 		{
 			}
 
 #innerWrapper 	{
-				width: 85%;
+				width: 95%;
 				}
 
 #header		{
 			border: 1px solid black;
+			background-color: #336699;
 			}
 
 #titlebar	{
@@ -24,18 +34,44 @@ div 		{
 			border: 1px solid black;
 			}
 
+#pageTitle	{
+			font-family: monospace;
+			font-size: 40px;
+			}
+
 #content 	{
+			padding-left: 10px;
+			padding-right: 10px;
 			border: 2px solid black;
 			margin-top: 10px;
 			margin-bottom: 10px;
-			background-color: white;
+			background-color: #336633;
 			
 			}
 
 #bottomNav	{
+			background-color: #663300;
 			}
 
+#topNav		{
+
+			}
+
+#disclaimer	{
+			color: white;
+			}
 
 .navbar		{
+			padding: 0%;
 			border: 1px solid black;
 			}
+
+.navButton	{
+			text-align: center;
+			position: relative;
+			display: inline-block;
+			width: 19%;
+			font-size: 20px;
+			padding: 2px;
+			}
+
