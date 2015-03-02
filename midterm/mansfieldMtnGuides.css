@@ -7,13 +7,17 @@ div 		{
 			margin-right: auto;
 			}
 
+a 			{
+			color: white;
+			}
+
 a:visited	{
 			color: white;
 			}
 
 #wrapper	{
 			margin-top: 5%;
-			width: 60%;
+			width: 70%;
 			background-color: #333300;
 			border-radius: 10px;
 			padding: 10px;
@@ -40,6 +44,8 @@ a:visited	{
 			}
 
 #content 	{
+			padding-top: 5px;
+			padding-bottom: 5px;
 			padding-left: 10px;
 			padding-right: 10px;
 			border: 2px solid black;
@@ -63,10 +69,12 @@ a:visited	{
 
 .navbar		{
 			padding: 0%;
-			border: 1px solid black;
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
 			}
 
 .navButton	{
+			border-right: 1px black solid;
 			text-align: center;
 			position: relative;
 			display: inline-block;
