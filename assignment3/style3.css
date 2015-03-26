@@ -1,21 +1,26 @@
 table 			{
 				font-family: arial;
-				border: 1px solid black;
 				border-spacing: 0px;
-				margin: 5px;
 				}
 
 td				{
 				border-right: 1px solid black;
 				border-left: 1px solid black;
-				border-collapse: collapse;
 				}
 
 th				{
+				border-top: 1px solid black;
 				border-right: 1px solid black;
 				border-left: 1px solid black;
-				border-collapse: collapse;
 				background-color: lightblue;
+				}
+
+.wrapper		{
+				border-top: 1px solid black;
+				border-bottom: 1px solid black;
+				border-spacing: 1px;
+				border-collapse: separate;
+				margin: 5px;
 				}
 
 td.noSides		{
@@ -25,14 +30,16 @@ td.noSides		{
 
 tr.brow > td	{
 				border-bottom: 1px solid black;
-				border-collapse: collapse;
 				}
 
 tr.titleRow > th	{
 				border-top: 1px solid black;
 				border-bottom: 1px solid black;
+				border-spacing: 0px, 0px, 0px, 15px;
+				border-collapse: separate;
 				}
 
 .leftCell		{
 				background-color: lightblue;
+				border-left: 0px;
 				}	
