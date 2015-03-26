@@ -1,0 +1,38 @@
+table 			{
+				font-family: arial;
+				border: 1px solid black;
+				border-spacing: 0px;
+				margin: 5px;
+				}
+
+td				{
+				border-right: 1px solid black;
+				border-left: 1px solid black;
+				border-collapse: collapse;
+				}
+
+th				{
+				border-right: 1px solid black;
+				border-left: 1px solid black;
+				border-collapse: collapse;
+				background-color: lightblue;
+				}
+
+td.noSides		{
+				border-left: 0px;
+				border-right: 0px;
+				}
+
+tr.brow > td	{
+				border-bottom: 1px solid black;
+				border-collapse: collapse;
+				}
+
+tr.titleRow > th	{
+				border-top: 1px solid black;
+				border-bottom: 1px solid black;
+				}
+
+.leftCell		{
+				background-color: lightblue;
+				}	
