@@ -1,6 +1,9 @@
 table 			{
 				font-family: arial;
 				border-spacing: 0px;
+				border-left: 0px;
+				border-right: 0px;
+				border-collapse: collapse;
 				}
 
 td				{
@@ -28,6 +31,10 @@ td.noSides		{
 				border-right: 0px;
 				}
 
+.noRightSide	{
+				border-right: 0px;
+				}
+
 tr.brow > td	{
 				border-bottom: 1px solid black;
 				}
@@ -35,11 +42,9 @@ tr.brow > td	{
 tr.titleRow > th	{
 				border-top: 1px solid black;
 				border-bottom: 1px solid black;
-				border-spacing: 0px, 0px, 0px, 15px;
-				border-collapse: separate;
 				}
 
-.leftCell		{
+td.leftCell		{
 				background-color: lightblue;
 				border-left: 0px;
 				}	
