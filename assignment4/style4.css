@@ -1,0 +1,9 @@
+		form		{
+					margin-left: 25%;
+					}
+
+		div.label 	{
+		     		float:left;
+		     		text-align: right;
+		     		min-width: 200px;
+		      		}

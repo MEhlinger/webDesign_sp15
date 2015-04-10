@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Marshall's Ehlinger</title>
+
+		<LINK rel="stylesheet" type="text/css" href="style4.css">
+
+		<script>
+			function	updateTxtLoad()
+					{
+						document.dasForm.txtLoad.value = "Bienvenue!";
+					}
+			function	updateTxtClick()
+					{
+						document.dasForm.txtClick.value = "Click!";
+					}
+			function	updateTxtFocus()
+					{
+						document.dasForm.txtFocus.value = "Get Focused, bro";	
+					}
+			function	updateTxtMouse() 
+					{
+						document.dasForm.txtMouse.value = "Mouse over! Try Again!";
+					}
+		</script>
+
+</head>
+
+	<body onload="updateTxtLoad()"> 
+		<form name="dasForm";>
+
+          	<div class="label">onLoad event:</div>
+			<input type="text" name="txtLoad" id="WELCOME" onLoad="updateTxtLoad()">
+         	<br>
+
+			<div class="label">onClick event:</div>
+			<input type="text" name ="txtClick" id="CLICK"  onClick="updateTxtClick()">
+			<br>
+
+			<div class="label">onFocus event:</div>
+			<input type="text" name="txtFocus" id="FOCUS" onFocus="updateTxtFocus()">
+			<br>
+
+          	<div class="label">onMouseOver event:</div>
+          	<input type="text" name="txtMouse" id="MOUSE"  onMouseOver="updateTxtMouse()">
+
+		</form>
+	</body>
+</html>
+
